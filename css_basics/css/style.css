@@ -1,0 +1,87 @@
+/* Colors and Background */
+ * {
+     margin: 0
+ }
+
+.heading  {
+    color: black;
+    background-color: #5f9ea0;
+    background-image:  url(../images/background_image.jpg);
+    background-size: 1200px;  
+
+}
+
+
+/* Font Properties */
+
+.font_properties {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Text Properties */
+
+.txt_properties h1{
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.txt_properties p {
+    text-align: justify;
+    line-height: 20px;
+
+}
+
+/* Classification Properties */
+.class_properties ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+
+/* Box properties */
+.box_properties_1 h1 {
+    margin: 0px; /* top, right, bottom, left */
+    padding: 10px;
+    border: 10px;
+    border-color: violet;
+    border-width: 2px;
+    border-style:dotted
+}
+
+.box_properties_1 img {
+    margin: 20px;
+    padding: 20px;    
+    float: none;
+}
+
+/* Display properties */
+
+.display_properties {
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ label{
+    display: block;
+    margin-top: 25px;
+}
+
+input {
+    height: 20px;
+}
+
+button {
+    display: block;
+    margin-top: 25px;
+    font-weight: bold;
+}
+  
+
+
