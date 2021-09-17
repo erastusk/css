@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/ocean.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;    
+    text-transform: uppercase;
+}
+
+header {
+    border: darkcyan;
+    border-style: solid;
+    background-color: darkcyan;
+    height: 70px;
+    color: white;
+ }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.button {
+    margin-right: 30px;
+    text-decoration: none;
+    background-color: lightgreen;
+    color: grey;
+    padding: 9px 25px;
+    border-radius: 50px;
+
+}
+.button:hover {
+    color: darkkhaki;
+}
+
+nav ul {
+    list-style: none;    
+}
+nav h1 {
+    padding-left: 30px;
+}
+
+nav  ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+nav ul li a:hover {
+    color: darkkhaki;
+}
+
+@media screen and (max-width: 800px) {
+  
+    body {
+        background-image: none;
+        background-color: lightseagreen;
+        
+    }
+    header {
+        background-color: lightseagreen; 
+        border: none;
+        margin: 0 200px;
+    }
+    nav ul li{
+        display: block; 
+        line-height: 50px;
+        margin-left: 15px; 
+          
+    }
+    nav {
+        display: block;
+        justify-content: center;
+    }
+    .button {
+        border-radius: 0;
+        color: white;
+        background-color: lightseagreen;
+        line-height: 80px;
+        margin-left: 5px;
+       
+
+        
+    }
+
+
+}
+    
+
+
+
+
+
+
+
+
+
